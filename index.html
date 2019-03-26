@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Талицкая картинная галерея</title>
+  <link rel="shortcut icon" type="image/png" href="image/icon/favicon.png"/>
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/header.css">
+  <link rel="stylesheet" href="styles/section-slider.css">
+  <link rel="stylesheet" href="styles/Robotocondensed.css">
+</head>
+<body>
+  <header class="header">
+    <div class="menu">
+      <div class="menu__icon">
+        <input type="checkbox"  id="menu__check">
+        <label  for="menu__check" class="menu__label"></label>
+        <div class="menu__icon-item"></div>
+        <nav class="menu__navigation">
+          <a href="#" class="menu__item">Главная</a>
+          <a href="#" class="menu__item">Галерея</a>
+          <a href="#" class="menu__item">Белков Ю.С.</a>
+        </nav>
+      </div>     
+    </div>    
+  </header>
+  <section class="section section--slider">
+    <div class="section__for-slider for-slider">
+      <!-- <h1 class="slider__title">талицкая картинная галерея</h1>
+      <h2 class="slider__subtitle">имени Белкова Ю.С.</h2> -->
+
+      <div class="slider">
+        <div class="item">
+            <img src="image/picture1.jpg" alt="Первый слайд">
+        </div>
+        <div class="item">
+            <img src="image/picture2.jpg" alt="Второй слайд">
+        </div>
+        <div class="item">
+            <img src="image/picture3.jpg" alt="Третий слайд">
+        </div>
+        <div class="item">
+          <img src="image/picture4.jpg" alt="Третий слайд">
+        </div>
+        <div class="item">
+          <img src="image/picture5.jpg" alt="Третий слайд">
+        </div>  
+        <a class="prev" onclick="minusSlide()">&#10094;</a>
+        <a class="next" onclick="plusSlide()">&#10095;</a>
+      </div>
+    
+      
+    </div>
+    <div class="slider__scroll">
+      <div class="slider__dots">
+        <div class="slider__dot"></div>
+        <div class="slider__dot"></div>
+        <div class="slider__dot"></div>
+        <div class="slider__dot"></div>
+      </div>
+      <span class="slider__line"></span>
+    </div>   
+  </section>
+  <script src="scripts/slider.js"></script>
+</body>
+</html>
