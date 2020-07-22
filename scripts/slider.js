@@ -1,3 +1,6 @@
+console.log('test fo widget');
+
+
 /* Индекс слайда по умолчанию */
 let slideIndex = 1;
 showSlides(slideIndex);
